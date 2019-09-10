@@ -38,7 +38,7 @@ ansible 2.0.0.2
 
 1. Clone git repository:
 ```
-git clone https://github.com/ybil/testAPP.git
+git clone https://github.com/ybil/testcase.git
 ```
 2. Generate SSH key-pair and copy public key to the target machine:
 ```
@@ -100,7 +100,7 @@ ok: [host1]
 TASK [Copy default html page] **************************************************
 ok: [host1]
 
-TASK [Create /var/www/hello-app dir] *******************************************
+TASK [Create /var/www/helloworld-app dir] *******************************************
 ok: [host1]
 
 TASK [Clone git repo] **********************************************************
