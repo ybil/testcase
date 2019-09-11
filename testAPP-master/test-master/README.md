@@ -49,7 +49,7 @@ ssh -i ~/.ssh/ansible.pub <username>@100.0.0.2
 3. Replace `ansible_user parameter` in `hosts` inventory file with name of the user on the target machine.
 4. Run playbook:
 ```
-ubuntu@ansible:~/testAPP/ansible$ ansible-playbook testAPP_deploy.yaml --ask-sudo-pass -i hosts
+ubuntu@ansible:~/testAPP/ansible$ ansible-playbook testAPP_deploy.yaml --ask-sudo-password -i hosts
 SUDO password: 
 
 PLAY ***************************************************************************
