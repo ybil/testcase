@@ -46,8 +46,7 @@ ssh-keygen -f ~/.ssh/ansible
 ssh -i ~/.ssh/ansible.pub <username>@100.0.0.2
 ```
 
-3. Replace `ansible_user parameter` in `hosts` inventory file with name of the user on the target machine.
-4. Run playbook:
+3. Run playbook:
 ```
 ubuntu@ansible:~/testAPP/ansible$ ansible-playbook testAPP_deploy.yaml
 
