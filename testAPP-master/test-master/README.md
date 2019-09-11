@@ -48,7 +48,7 @@ ssh -i ~/.ssh/ansible.pub <username>@100.0.0.2
 
 3. Run playbook:
 ```
-ubuntu@ansible:~/testAPP/ansible$ ansible-playbook testAPP_deploy.yaml
+ubuntu@ansible:~/testAPP/ansible$ ansible-playbook testAPP_deploy.yaml --ask-vault-pass
 
 PLAY ***************************************************************************
 
